@@ -1,0 +1,11 @@
+.header {
+    text-align: center;
+    background-color: rgb(113, 183, 224);
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  body {
+    background-image: url("sweet.jpg");
+    background-size: cover;
+  }
