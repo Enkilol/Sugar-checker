@@ -13,10 +13,9 @@ const gramsPerPortion = nutritionFacts.serving_quantity; // Grammi per porzione
 
 const productImage = document.createElement('img');
 productImage.src = imageUrl;
-document.head.appendChild(productImage);
+document.body.appendChild(productImage);
 
 // Mostra solo le informazioni sugli zuccheri
-document.getElementById("product-Image").src = productImage;
 document.getElementById("product-name").innerHTML = productName;
 document.getElementById("cucchiaini").innerHTML = `Contiene ${sugarPerPortionDivided} cucchiai di zucchero per una porzione.`;
 document.getElementById("grammi-per-porzione").innerHTML = `Una porzione di prodotto equivale a ${gramsPerPortion} grammi`;
