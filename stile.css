@@ -6,6 +6,7 @@
   }
 
  body {
+    text-align: center;
     background-image: url("sweet.jpg");
     background-size: cover;
   }
