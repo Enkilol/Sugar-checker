@@ -13,7 +13,7 @@ const gramsPerPortion = nutritionFacts.serving_quantity; // Grammi per porzione
 
 const productImage = document.createElement('img');
 productImage.src = imageUrl;
-document.body.appendChild(productImage);
+document.head.appendChild(productImage);
 
 // Mostra solo le informazioni sugli zuccheri
 document.getElementById("product-Image").src = productImage;
