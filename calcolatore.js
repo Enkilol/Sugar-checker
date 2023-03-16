@@ -1,7 +1,7 @@
 const queryString = new URLSearchParams(window.location.search);
 const code = queryString.get("code");
 
-fetch(`https://world.openfoodfacts.org/api/v0/product/${code}.json?lang=it`)
+fetch(`https://world.openfoodfacts.org/api/v0/product/${code}.json`)
 .then(response => response.json())
 .then(data => {
   const imageUrl = data.product.image_url;
